@@ -1,0 +1,46 @@
+{% extends "base_cuentas.html" %}
+{% block title %}
+Nutz | Iniciar Sesion
+{% endblock title %}
+{% block body %}
+Nutz | Iniciar Sesion
+
+
+
+    <div class="row">
+        <div class="col s12">
+            <form action="">
+              <div class="input-field col s12 l6">
+                <input type="text" id="first_name" class="validate">
+                <label for="first_name">First Name</label>
+              </div>
+              <div class="input-field col s12 l6">
+                <input type="text" id="last_name" class="validate">
+                <label for="last_name">Last Name</label>
+              </div>
+              <div class="input-field col s12">
+                <input type="email" id="email" class="validate">
+                <label for="email" data-error="wrong" data-success="right">Email</label>
+              </div>
+              <div class="input-field col s12">
+                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                <label for="textarea1">Textarea</label>
+              </div>
+              <div class="input-field col s12">
+                <select >
+                  <option value=""  >Choose your option</option>
+                  <option value="1">Option 1</option>
+                  <option value="2">Option 2</option>
+                  <option value="3">Option 3</option>
+                </select>
+                <label>Materialize Disabled</label>
+              </div>
+              <div class="input-field col s12">
+                <input type="submit" value="Ingresar" class="btn">
+              </div>
+            </form>
+        </div>
+    </div>
+  </div>
+
+{% endblock body %}
